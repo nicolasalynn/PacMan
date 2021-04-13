@@ -554,10 +554,8 @@ class AnyFoodSearchProblem(PositionSearchProblem):
 
         "*** YOUR CODE HERE ***"
         distance, goal = min([(util.manhattanDistance(state, goal), goal) for goal in self.food.asList()])
-        if state == goal:
-            return True
-        else:
-            return False
+        if state == goal: return True
+        return False
 
 
 def mazeDistance(point1, point2, gameState):
