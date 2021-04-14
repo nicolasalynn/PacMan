@@ -12,6 +12,7 @@ found here: http://ai.berkeley.edu/search.html.
 3. util.py
 
 **Demonstrations**
+<<<<<<< HEAD
 1. DFS:  ``` python pacman.py -l bigMaze -z .5 -p SearchAgent --frameTime 0 ```
 2. BFS:  ``` python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5 --frameTime 0```
 3. A* :  ``` python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic --frameTime 0```
